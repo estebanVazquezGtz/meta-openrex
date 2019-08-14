@@ -26,8 +26,8 @@ En caso de interesarse por saber mas detalles acerca de YOCTO, como usarlo y cre
       
       <manifest>
       
-      <remote fetch="git://github.com/FEDEVEL" name="fedevel"/>
-      <project remote="fedevel" revision="jethro" name="meta-openrex" path="sources/meta-openrex">
+      <remote fetch="git://github.com/estebanVazquezGtz" name="estebanVazquezGtz"/>
+      <project remote="estebanVazquezGtz" revision="jethro" name="meta-openrex" path="sources/meta-openrex">
         <copyfile src="openrex-setup.sh" dest="openrex-setup.sh"/>
       </project>
     </manifest>
