@@ -21,6 +21,6 @@ SRC_URI = "git://github.com/estebanVazquezGtz/openrex-linux-v3.14.git;branch=${S
 
 LOCALVERSION = "-yoctoEsteban"
 
-SRCREV = "dc734a6ee749463163b1158896790d6861e36441"
+SRCREV = "b7477809745c25eca99a125054d110e4e85c9590"
 
-COMPATIBLE_MACHINE = "(mx6|mx7|imx6qopenrex)"
+COMPATIBLE_MACHINE = "(mx6|mx7|imx6qopenrex|imx6sopenrex)"

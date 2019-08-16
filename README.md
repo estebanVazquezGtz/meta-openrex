@@ -41,10 +41,10 @@ En caso de interesarse por saber mas detalles acerca de YOCTO, como usarlo y cre
 ### 7) Colocarse en el directorio de trabajo.  
     cd ~/fsl-community-bsp/
 
-### 8) Configurar el entorno y generar los archivos de imagen.
+### 8) Configurar el entorno y generar los archivos de imagen las tarjetas que soporta esta version son imx6qopenrex (quad core) y imx6sopenrex (solo core).
 
-    MACHINE=imx6qopenrex source setup-environment build-openrex
-    MACHINE=imx6qopenrex bitbake core-image-base
+    MACHINE=ID_TARJETA source setup-environment build-openrex
+    MACHINE=ID_TARJETA bitbake core-image-base
 
 ### 9) Cargar los archivos de salida a una tarjeta SD.
 
